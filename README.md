@@ -13,6 +13,7 @@ Check dimensions
 Print the number of rows and columns in the DataFrame
 
 ## PROGRAM:
+```
 #Program to read contents from CSV file
 #Developed by: P PARTHIBAN
 #Register Number: 23007965
@@ -24,7 +25,7 @@ print(df.head(10))
 print(df.tail(5))
 print("Number of rows:",len(df.axes[0]))
 print("Number of columns:",len(df.axes[1]))
-
+```
 ## OUTPUT:
 ![image](https://github.com/23007965/Read-from-CSV/assets/138971238/c38dee80-2471-4228-957b-4c9ea1bbff2e)
 
